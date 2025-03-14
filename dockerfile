@@ -18,3 +18,16 @@ ENV FLASK_APP=app.py
 
 # Run the Flask app
 CMD ["flask", "run", "--host=0.0.0.0"]
+
+
+# commands:
+
+# docker login
+
+# docker build -t <demo> .
+
+# docker run -p 5000:5000 <demo>
+
+# docker tag docker-demo yashjhota/docker-demo:latest
+
+# docker push yashjhota/docker-demo
